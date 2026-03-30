@@ -10,25 +10,23 @@ private:
     int _age;
     string _caseDescription;
     string _arrivalTime;
+    bool _isUrgent; // for emergency
 
 public:
-    clsPatient(string name, int age, string caseDescription, string arrivalTime) {
+    clsPatient(string name, int age, string caseDescription, string arrivalTime, bool isUrgent = false) {
         _name = name;
         _age = age;
         _caseDescription = caseDescription;
         _arrivalTime = arrivalTime;
+        _isUrgent = isUrgent;
     }
 
     // Getters
     string getName() const { return _name; }
-    int getAge() const { return _age; }
-    string getCaseDescription() const { return _caseDescription; }
-    string getArrivalTime() const { return _arrivalTime; }
+    bool isUrgent() const { return _isUrgent; }
 
-    // دالة لعرض بيانات المريض بشكل منظم
     void print() const {
-        cout << "Patient: " << _name << " | Age: " << _age
-            << " | Case: " << _caseDescription
-            << " | Arrived at: " << _arrivalTime << endl;
+        cout << (_isUrgent ? "[URGENT] " : "[Regular] ")
+            << "Patient: " << _name << " | Case: " << _caseDescription << endl;
     }
 };

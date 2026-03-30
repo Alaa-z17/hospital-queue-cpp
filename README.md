@@ -16,10 +16,10 @@ Watch the system in action, featuring the custom validation logic and priority q
 ## 🚀 Key Features
 
 * **Smart Priority Queuing:** Automatically moves "Urgent" cases to the front of the line while maintaining a regular queue for standard check-ups.
-* **Template-Based Validation:** A custom `clsInputValidate` class built using **C++ Templates** to handle type-safe inputs for `int`, `short`, and `double`.
-* **Regex Time Validation:** Uses **Regular Expressions** to ensure arrival times are entered in the correct `HH:MM AM/PM` format.
+* **Template-Based Validation:** A custom `clsInputValidate` class built using **C++ Templates** to handle type-safe inputs for any numeric data type.
+* **Regex Time Validation:** Uses **Regular Expressions** to ensure arrival times strictly follow the `HH:MM AM/PM` format.
 * **Modular Architecture:** Strictly follows OOP principles, separating the Data Structure (Queue), Business Logic (Hospital System), and UI (Menu).
-* **Crash-Proof UI:** Robust error handling that prevents the console from crashing on invalid user inputs.
+* **Crash-Proof UI:** Professional error handling that prevents the console from crashing on invalid user inputs.
 
 ---
 
@@ -46,14 +46,19 @@ Watch the system in action, featuring the custom validation logic and priority q
 ---
 
 ## ⚙️ How to Run
-
-1.  Clone the repository:
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Alaa-z17/hospital-queue-cpp.git
     ```
 2.  Open the `.sln` file in **Visual Studio**.
 3.  Build the solution in **Release** mode.
-4.  Run the `.exe` from the `/Release` folder or directly via the IDE.
+4.  Run the `.exe` from the `/Release` folder.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 

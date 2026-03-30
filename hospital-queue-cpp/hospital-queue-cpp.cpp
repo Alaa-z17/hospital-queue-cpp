@@ -1,10 +1,8 @@
-
-
-#include <iostream>
+#include "ShowMainMenu.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	ShowMainMenu::Show();
 }
 
 

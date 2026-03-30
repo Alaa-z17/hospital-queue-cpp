@@ -42,7 +42,7 @@ public:
     }
 
     int size() const {
-        return _container.size();
+        return (int)_container.size();
     }
 
     void clear() {

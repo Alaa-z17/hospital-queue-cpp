@@ -8,7 +8,7 @@ A robust, Object-Oriented **Hospital Queue Management** application built with *
 
 Watch the system in action, featuring the custom validation logic and priority queuing:
 
-[![Hospital Queue System Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Hospital Queue System Demo](https://img.youtube.com/vi/F3gGCWpjSpg/0.jpg)](https://www.youtube.com/watch?v=F3gGCWpjSpg)
 > *Click the image above to watch the project walkthrough on YouTube.*
 
 ---

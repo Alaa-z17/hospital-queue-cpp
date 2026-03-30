@@ -64,4 +64,4 @@ This is the **2nd project** in my **"7 Professional C++ Projects"** series. My g
 **Connect with me:**
 
 * **GitHub:** [@Alaa-z17](https://github.com/Alaa-z17)
-* **LinkedIn:** [Your LinkedIn Profile Link]
+* **LinkedIn:** [www.linkedin.com/in/alaa-alkatshah-65339620b]
